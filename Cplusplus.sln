@@ -125,6 +125,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "62 异常接口声明", "62
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "63 异常类型与异常对象生命周期", "63 异常类型与异常对象生命周期\63 异常类型与异常对象生命周期.vcxproj", "{6D6A2127-C007-42EA-B7D3-094FD1DF063A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "64 C++标准异常库举例", "64 C++标准异常库举例\64 C++标准异常库举例.vcxproj", "{5FCB9A2B-D746-4AA0-A61D-A120D999823F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -621,6 +623,14 @@ Global
 		{6D6A2127-C007-42EA-B7D3-094FD1DF063A}.Release|x64.Build.0 = Release|x64
 		{6D6A2127-C007-42EA-B7D3-094FD1DF063A}.Release|x86.ActiveCfg = Release|Win32
 		{6D6A2127-C007-42EA-B7D3-094FD1DF063A}.Release|x86.Build.0 = Release|Win32
+		{5FCB9A2B-D746-4AA0-A61D-A120D999823F}.Debug|x64.ActiveCfg = Debug|x64
+		{5FCB9A2B-D746-4AA0-A61D-A120D999823F}.Debug|x64.Build.0 = Debug|x64
+		{5FCB9A2B-D746-4AA0-A61D-A120D999823F}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FCB9A2B-D746-4AA0-A61D-A120D999823F}.Debug|x86.Build.0 = Debug|Win32
+		{5FCB9A2B-D746-4AA0-A61D-A120D999823F}.Release|x64.ActiveCfg = Release|x64
+		{5FCB9A2B-D746-4AA0-A61D-A120D999823F}.Release|x64.Build.0 = Release|x64
+		{5FCB9A2B-D746-4AA0-A61D-A120D999823F}.Release|x86.ActiveCfg = Release|Win32
+		{5FCB9A2B-D746-4AA0-A61D-A120D999823F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -183,13 +183,42 @@ void func6() {
 	cout << "容量:" << v.capacity() << endl;
 }
 
+//reserve 预留空间[因为动态数组增长时，会重新申请空间，拷贝数据]
+void func7() {
+
+	//reserve 预留空间 resize 区别
+
+	int num = 0;//统计重新申请空间
+	int* address = NULL;
+
+	vector<int> v;
+
+	//预留空间
+	v.reserve(1000);
+
+	for (int i = 0; i < 1000; i++)
+	{
+		v.push_back(i);
+
+		//第一个元素的首地址 改变时会触发
+		if (address != &(v[0]))
+		{
+			address = &(v[0]);//等于下一个首地址
+			num++;
+		}
+	}
+
+	cout << "申请次数:" << num << endl;
+}
+
 int main() {
 	//func1();
 	//func2();
 	//func3();
 	//func4();
 	//func5();
-	func6();
+	//func6();
+	func7();
 
 	//p-47
 }
